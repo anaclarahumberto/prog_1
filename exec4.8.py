@@ -7,7 +7,7 @@ while True:
     if len(palavras) != 5: 
         print("Você digitou uma frase com uma quantidade diferente de palavras. Por favor, digite uma frase com exatamente 5 palavras.")
     else: 
-        for palavra in palavras:
+        #for palavra in palavras:
             print(palavra)
         break
 
