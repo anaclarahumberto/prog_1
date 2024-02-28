@@ -7,4 +7,4 @@ while numero >= 0:
     contador += 1
     numero = float(input("Digite outro número:"))
 media = soma / contador
-print(f"A média dos números é {media}")
+print("A média dos números é:",media)
