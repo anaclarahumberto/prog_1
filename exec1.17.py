@@ -4,5 +4,5 @@ imposto = float(input("Digite o imposto (%):"))
 
 preco_desconto = preco_mercadoria - (preco_mercadoria * (desconto / 100))
 preco_final_mercadoria = preco_desconto + (preco_desconto * (imposto / 100))
-print(f"O valor final da mercadoria é de R${preco_final_mercadoria}")
+print(f"O preço final da mercadoria é de R${preco_final_mercadoria}")
 
