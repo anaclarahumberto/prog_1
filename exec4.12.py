@@ -1,4 +1,4 @@
-frase = input("Digite uma frase: ")
+frase = input("Digite uma frase para contar-mos quantas palavras terminam com a letra “o” e a letra “a": ")
 def contar_palavras(frase):
     palavras = frase.split()
     contador_o = 0
