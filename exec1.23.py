@@ -4,4 +4,4 @@ aceleracao = float(input("Digite a aceleração em (m/s²):"))
 
 velocidade_inicial = (aceleracao / tempo_gasto) - ((aceleracao * tempo_gasto) / 2)
 velocidade_final = velocidade_inicial + aceleracao * tempo_gasto
-print(f"A velocidade inicial do objeto é {velocidade_inicial} m/s², e a sua velocidade final é de {velocidade_final} m/s²")
+print("A velocidade inicial do objeto é ", velocidade_inicial, "m/s², e a sua velocidade final é de ",velocidade_final, "m/s².")
