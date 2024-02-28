@@ -16,4 +16,4 @@ segundo_maior_numero = max(numeros)
 segundo_menor_numero = min(numeros)
 
 print(f"O segundo maior número é {segundo_maior_numero}")
-print(f"O segundo menor número é {segundo_menor_numero}:")
+print(f"O segundo menor número é {segundo_menor_numero}")
