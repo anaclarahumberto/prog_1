@@ -3,4 +3,4 @@ tempo_gasto=float(input("Digite o tempo gasto: "))
 
 velocidade_media= distancia_percorrida / tempo_gasto
 
-print("A velocidade média vale: ",velocidade_media)
+print("A velocidade média é: ",velocidade_media)
