@@ -1,5 +1,5 @@
-idade = int(input("Digite a idade:"))
-sexo = input("Digite o sexo da pessoa (M ou F):")
+idade = int(input("Digite sua idade:"))
+sexo = input("Digite seu sexo (M ou F):")
 
 if (idade >= 60 and sexo == 'F') or (idade >= 65 and sexo == 'M'):
     print("Você está legível para aposentadoria!")
