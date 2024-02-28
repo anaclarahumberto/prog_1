@@ -1,6 +1,6 @@
-for numero in range(2,101):
+for numero in range(1,101):
     primo = True
-    for i in range(2,numero):
+    for i in range(1,numero):
         if numero % i == 0:
             primo = False
             break
