@@ -9,6 +9,6 @@ for palavra in palavras:
 
     contagem_palavras[palavra_sem_pontuacao.lower()] = contagem_palavras.get(palavra_sem_pontuacao.lower(), 0) + 1
 
-print("Contagem de cada palavra na frase:")
+print("Quantidade de vezes que a palavra apareceu na frase:")
 for palavra, contagem in contagem_palavras.items():
     print(f"{palavra}: {contagem}")
