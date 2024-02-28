@@ -1,0 +1,7 @@
+numero = float(input("Digite um número:"))
+string = str(numero)
+
+if string.endswith('.') or '.0' not in string:
+    print("É um número real!")
+else:
+    print("Não é um número real!")
