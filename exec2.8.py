@@ -1,7 +1,17 @@
-numero = float(input("Digite um número:"))
-string = str(numero)
+entrada = input("Digite um número real: ")
+e_numero_real = True
 
-if string.endswith('.') or '.0' not in string:
-    print("É um número real!")
+for caractere in entrada:
+    if not (caractere.isdigit() or caractere == '.'):
+        e_numero_real = False
+        break
+
+if e_numero_real:
+    pontos_decimais = entrada.count('.')
+    if pontos_decimais != 1:
+        e_numero_real = False
+
+if e_numero_real:
+    print("É um número real.")
 else:
-    print("Não é um número real!")
+    print("Não é um número real.")
